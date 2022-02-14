@@ -1,12 +1,14 @@
 
-import { Button } from '@mui/material';
 import './App.css';
+import Informations from './components/Informations/Informations';
+
 
 function App() {
+
+
   return (
     <div className="App">
-       <Button variant="contained">Contained</Button>
-
+         <Informations> </Informations>
     </div>
   );
 }
