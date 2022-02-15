@@ -1,3 +1,4 @@
+import { Card } from '@mui/material';
 import React, { useEffect, useState } from 'react';
 import News from '../News/News';
 
@@ -10,11 +11,13 @@ const Informations = () => {
     },[])
     return (
         <div>
-           {
-               infos.map( info=> <News info={info} key={info.content}> 
+            
+            {
+                infos.map( info=> <News info={info} key={info.content}> 
 
-               </News> )
-           }
+                </News> )
+            }
+          
         </div>
     );
 };
