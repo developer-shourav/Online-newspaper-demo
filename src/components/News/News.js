@@ -21,8 +21,8 @@ const News = (props) => {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button variant="contained" size="small">{author}</Button>
-        <Button variant="contained" >{publishedAt}</Button>
+        <Button variant="contained" >{author}</Button>
+        <Button variant="outlined" >{publishedAt}</Button>
       </CardActions>
     </Card>
   );
